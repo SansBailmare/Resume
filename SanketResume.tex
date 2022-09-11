@@ -1,0 +1,223 @@
+%-------------------------
+% Resume in Latex
+% Author : Sanket Bailmare
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {#1} & {\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & {\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\usepackage{hyperref}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+    {\huge  Sanket Bailmare} \\ \vspace{5pt}
+    \small \raisebox{-0.1\height}\ 812-558-8785 ~ $|$ \href{mailto:bailmaresanket310@gmail.com}{\raisebox{-0.2\height}\  \underline{bailmaresanket310@gmail.com}} ~ $|$
+    \href{https://www.linkedin.com/in/sanket-bailmare/}{\raisebox{-0.2\height}\ \underline{LinkedIn}}  ~ $|$
+    \href{https://github.com/SansBailmare}{\raisebox{-0.2\height}\ \underline{GitHub}}~ $|$
+    \small \raisebox{-0.1\height}\ Indiana, USA 
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Indiana University}, Bloomington, Indiana}{May 2023}
+      {Master of Science in Computer Science}{3.9 GPA}
+    \resumeSubheading
+      {\textbf{University of Mumbai}, Mumbai, India}{May 2019}
+      {Bachelor of Engineering in Computer Engineering}{3.8 GPA}
+  \resumeSubHeadingListEnd
+  
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Java, Python, JavaScript, SQL, HTML, CSS} \\
+     % \textbf{Web Technologies}{:  HTML, CSS, Bootstrap, jQuery, } \\
+     \textbf{Databases}{: MySQL, PostgreSQL,DB2, MongoDB, Redis} \\
+     \textbf{Frameworks}{: Spring Boot, Spring MVC,Hibernate, ReactJS, React Native, JUnit, Power Mockito} \\ 
+     \textbf{Skills and Interest}{: Git, Linux/Unix Commands, Maven, Jenkins, Microservices, REST APIs, Docker, Kubernetes}\\
+     \textbf{Topics}{: Algorithms, Data Structures, Cloud, Distributed Systems, Data Analysis, Airflow, Agile}\\
+     \textbf{Certifications}{: \href{https://www.credly.com/badges/51e13f9c-d11c-4607-a921-482d0867e638}{\raisebox{-0.1\height}\ \underline{OCAJP} \faExternalLink} ~ \href{https://www.udemy.com/certificate/UC-ae846ccf-a20c-4649-9e3e-eb1f99f4d6f2/}{\raisebox{-0.1\height}\ \underline{Spring and Hibernate} \faExternalLink} ~ \href{https://www.credly.com/badges/a59b4f49-1e2e-4e5f-b0a2-eb2e6bc04bbf?source=linked_in_profile}{\raisebox{-0.1\height}\ \underline{Azure Data Fundamentals} \faExternalLink} ~ \href{https://www.credly.com/badges/a89e87a0-66b2-47a9-9082-8f7e8a22fe28/linked_in_profile}{\raisebox{-0.1\height}\ \underline{Data Analysis} \faExternalLink} }\\
+     
+    }}
+ \end{itemize}
+ \vspace{-14pt}
+%-----------EXPERIENCE-----------
+\section{PROFESSIONAL EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\textbf{Software Engineer III Intern}, \small{Walmart Global Tech, USA}}{May 2022 -- August 2022}
+      {\textbf{Technologies: Java, Spring Boot, ReactJS, Power Mock, Kubernetes}}{}
+      \resumeItemListStart
+        \resumeItem{Designed, and developed a scalable application to onboard new partners to Walmart Sponsored Products Platform.}
+        \resumeItem{Worked on Java Spring Boot to create onboarding process REST API’s which reduced \textbf{30\%} human efforts.}
+        \resumeItem{Built responsive and functional UI components in ReactJS for partners to track their onboarding status.}
+        \resumeItem{Used Power Mockito framework to perform Unit testing and Kubernetes to deploy the application.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{Software Developer} \small{(Consultant in Morgan Stanley), Xoriant Solutions, Mumbai, India}}{September 2019 -- July 2021}
+      {\textbf{Technologies: Java, Spring Boot, Python, Dash, Mockito, HDFS, MQ}}{}
+      \resumeItemListStart
+        \resumeItem{Designed, developed, and maintained a scalable application used by multiple clients’ daily requests for subscribing to files (data products), ingesting new files, monitoring the data files using Spring Boot and Java.}
+        \resumeItem{Architected and developed a web-based application using React, HTML, CSS that consumes REST APIs created using Microservices to configure client-specific requirements thereby reducing the time of configuration by \textbf{80\%}.}
+        \resumeItem{Devised the REST APIs to collect files from HDFS/FTP and feed them to data processing pipeline.}
+        \resumeItem{Improved code quality and stability (\textbf{40\%}) by writing Unit tests using Power Mockito and SonarQube quality gates.}
+        \resumeItem{Spearheaded the team of 3 to build dashboard in Dash-plotly for recommending files (data products) based on previous subscriptions which helped to achieve the most valuable Business KPI.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{Associate Software Developer}, \small{Xoriant Solutions, Mumbai, India}}{July 2019 -- September 2019}
+      {\textbf{Technologies: Python, Elasticsearch, Docker, GCP}}{}
+      \resumeItemListStart
+        \resumeItem{Configured x-pack for the security of Elasticsearch Cluster used by recommendation application; Refactored python code to integrate security classes to check health, availability of nodes and connection with the node.}
+        \resumeItem{Identified and created Indexes, mappings using both single and multi-document Elastic Search REST API’s in python.}      
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{ACADEMIC PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/airavata-courses/dexlab}{\underline{Weather Radar} \faExternalLink}}: \textbf{Distributed Systems} \small{under Apache Airavata} $|$ \emph{Java, Python, NodeJS, ReactJS, Kubernetes, Nginx}}{Jan 2022}
+          \resumeItemListStart
+            \resumeItem{Co-Designed a microservice-based architecture having 3 microservices for website that does weather trends using NEXRAD datasets hosted on AWS S3 buckets.}
+            \resumeItem{Increased throughput by \textbf{40\%} crafting a façade with API gateway (NodeJS Service) by caching in REDIS.}
+            \resumeItem{Orchestrated containerized microservices to run on cluster of hots, auto scaling, and load balancing using Kubernetes. Tested the system using JMeter and Artillery.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{\href{https://github.iu.edu/sbailmar/IPL-Analytics}{\underline{IPL Analytics} \faExternalLink : }}\textbf{Database Design} $|$ \emph{Python, Flask, MySQL}}{Dec 2021}
+          \resumeItemListStart
+            \resumeItem{Designed logical model; documented the data such as entity relationships and attributes; optimized SQL queries for improved performance and availability}
+            \resumeItem{Designed and developed APIs to fetch and feed teams, players and player statistics using python flask framework.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-14pt}
+\section{PATENTS AND RESEARCH}
+    \vspace{-3pt}
+            \resumeItemListStart
+                \resumeItem{\textbf{”Automated Malware Analysis”} Journal of Emerging Technologies and Innovative Research (ISSN:2349-5162)}
+            \resumeItemListEnd 
+\end{document}
